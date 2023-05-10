@@ -1,0 +1,17 @@
+GET http://localhost:3001/
+
+
+###
+
+POST http://localhost:3001/new/product/
+Content-Type: application/json
+
+{
+    "name" : "Water Jug",
+    "ImageUrl" : "./Images/Water-Jug.jpg",
+    "Price" : "100"
+}
+
+###
+
+DELETE http://localhost:3001/product/delete/645b78f9c611a7a208d84d68/
